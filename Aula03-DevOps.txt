@@ -1,0 +1,22 @@
+Acesso através do Cmd
+
+1. Para acessar o diretório onde estão os arquivos
+
+	C:\Users\andrelfg>cd C:\Users\andrelfg\iCloudDrive\Impacta\S02.Ambiente de Desenvolvimento e Operações
+
+	C:\Users\andrelfg\iCloudDrive\Impacta\S02.Ambiente de Desenvolvimento e Operações>cd DevOps
+
+2. Para clonar a pasta do Git que foi criada para o projeto
+
+	C:\Users\andrelfg\iCloudDrive\Impacta\S02.Ambiente de Desenvolvimento e Operações\DevOps>git clone https://github.com/andre-filgueira/DevOps-EAD.git
+
+3. A resposta do Git (os arquivos existentes no reposítório vem para a máquina)
+	Cloning into 'DevOps-EAD'...
+	remote: Enumerating objects: 8, done.
+	remote: Counting objects: 100% (8/8), done.
+	remote: Compressing objects: 100% (8/8), done.
+	remote: Total 8 (delta 2), reused 0 (delta 0), pack-reused 0
+	Unpacking objects: 100% (8/8), 6.18 KiB | 8.00 KiB/s, done.
+
+4. Para enviar arquivos para o Git (colocando "gti add ." todos os arquivos são enviados
+	C:\Users\andrelfg\iCloudDrive\Impacta\S02.Ambiente de Desenvolvimento e Operações\DevOps>git add .
