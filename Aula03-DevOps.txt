@@ -18,5 +18,21 @@ Acesso através do Cmd
 	remote: Total 8 (delta 2), reused 0 (delta 0), pack-reused 0
 	Unpacking objects: 100% (8/8), 6.18 KiB | 8.00 KiB/s, done.
 
-4. Para enviar arquivos para o Git (colocando "gti add ." todos os arquivos são enviados
-	C:\Users\andrelfg\iCloudDrive\Impacta\S02.Ambiente de Desenvolvimento e Operações\DevOps>git add .
+4. Para enviar arquivos para o Git.
+4.1 acessar o diretório
+	C:\Users\andrelfg\iCloudDrive\Impacta\S02.Ambiente de Desenvolvimento e Operações\DevOps>cd DevOps-EAD
+4.2 verifica o status
+	C:\Users\andrelfg\iCloudDrive\Impacta\S02.Ambiente de Desenvolvimento e Operações\DevOps\DevOps-EAD>git pull	
+	a resposta deve ser "Already up to date."
+4.3 Identificar-me:
+	C:\Users\andrelfg\iCloudDrive\Impacta\S02.Ambiente de Desenvolvimento e Operações\DevOps\DevOps-EAD>git config --global user.email "andre.filgueira@aluno.faculdadeimpacta.com.br"
+	C:\Users\andrelfg\iCloudDrive\Impacta\S02.Ambiente de Desenvolvimento e Operações\DevOps\DevOps-EAD>git config --global user.name "andre-filgueira"
+4.4 dar o comando "git add ." (se estiver ok não tem resposta)
+	C:\Users\andrelfg\iCloudDrive\Impacta\S02.Ambiente de Desenvolvimento e Operações\DevOps\DevOps-EAD>git add .
+4.5 Informar dado sobre o arquivo (data de criação ou alguma outra mensagem)
+	git commit é o comando que grava a versão que foi enviada naquele momento
+C:\Users\andrelfg\iCloudDrive\Impacta\S02.Ambiente de Desenvolvimento e Operações\DevOps\DevOps-EAD>git commit -m "arquivo criado em 06.09.2020"
+[master 5686b61] arquivo criado em 06.09.2020
+ 1 file changed, 22 insertions(+)
+ create mode 100644 Aula03-DevOps.txt 
+
